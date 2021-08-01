@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     Future.delayed(
       Duration(seconds: 3),
       () {
-        print("hello world");
+        print("hello world data 123");
         Navigator.push(
             context, new MaterialPageRoute(builder: (context) => homepage()));
       },
